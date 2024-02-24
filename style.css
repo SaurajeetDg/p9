@@ -4,10 +4,7 @@
     box-sizing: border-box;
     
 }
-body{
-    /* height: 100vh;
-    width: 100%; */
-}
+
 .container{
     display: flex;
     font-family: sans-serif;
@@ -49,7 +46,7 @@ body{
 }
 .col2{
     background-color: #fff3f3;
-    padding: 8% 15%;
+    padding: 8% 15% 0; 
     /* text-align: center; */
 }
 .htext {
@@ -108,4 +105,23 @@ body{
     padding-left: 5px;
     font-size: 13px;
     font-weight: 500;
+}
+.btn{
+    border: solid 2px #7c5ee8;
+    margin-top: 30px;
+    border-radius: 10px;
+    background: #7c5ee8;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.endline span{
+    font-size: 13px;
+    font-weight: 500;
+    color: gray;
+    cursor: pointer;
+}
+.endline{
+    text-align: center;
+    padding-top: 23%;
 }
